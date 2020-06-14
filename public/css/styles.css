@@ -6920,23 +6920,3 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .footer {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
-
-.blackhole:before {
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  -webkit-transform: translateZ(0) scale(1, 1);
-  transform: translateZ(0);
-  background: #1b2030 url(/assets/blackhole.jpg) top center no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  animation: grow 60s linear 0s infinite;
-  transition: all 0.2s ease-in-out;
-  z-index: -2; }
-
-@keyframes grow {
-  0% {
-    transform: scale(1); }
-  50% {
-    transform: scale(1.25); }
-  100% {
-    transform: scale(1); } }
